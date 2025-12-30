@@ -15,7 +15,7 @@ int main(){
         digit[i] = 0;
     }
 
-    int num;
+    int num; 
     printf("输入一个数字：");
     scanf("%d",&num);
 
@@ -32,7 +32,7 @@ int main(){
             ;
         }
     }
-    
+
     printf("不重复.");
     return 0;
 }
