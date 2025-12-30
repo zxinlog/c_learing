@@ -22,6 +22,8 @@ int main(){
     printf("sizeof(arr) = %zd.\n", sizeof(arr));
     printf("sizeof(ptr) = %zd.\n", sizeof(ptr));
 
+    printf("arr 地址: %p\n", (void*)arr);
+    printf("ptr 指向的地址: %p\n", (void*)ptr);
 
     // 数组退化
     printf("main 函数，arr数组大小 sizeof(arr) = %zd.\n", sizeof(arr));
